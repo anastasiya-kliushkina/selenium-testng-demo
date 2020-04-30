@@ -17,9 +17,9 @@ public class TestInit {
 	
 	public String buildTag = System.getenv("BUILD_TAG");
 
-	public String key = System.getenv("TESTINGBOT_KEY");
+	public String key = System.getenv("BOT_KEY");
 
-	public String secret = System.getenv("TESTINGBOT_SECRET");
+	public String secret = System.getenv("BOT_SECRET");
 
 	//used to perform browser interactions
 	private ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
