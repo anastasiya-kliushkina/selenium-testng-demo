@@ -1,1 +1,1 @@
-# selenium-testng-demo
+# Demo for mobile-web application
